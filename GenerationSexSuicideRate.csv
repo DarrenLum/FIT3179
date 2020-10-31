@@ -1,0 +1,293 @@
+generation,sex,year,suicides_no
+Boomers,female,1985,4894
+Boomers,female,1986,5058
+Boomers,female,1987,4923
+Boomers,female,1988,4468
+Boomers,female,1989,5422
+Boomers,female,1990,6772
+Boomers,female,1991,21310
+Boomers,female,1992,22670
+Boomers,female,1993,22759
+Boomers,female,1994,23084
+Boomers,female,1995,17304
+Boomers,female,1996,17327
+Boomers,female,1997,17223
+Boomers,female,1998,17446
+Boomers,female,1999,18147
+Boomers,female,2000,18203
+Boomers,female,2001,17863
+Boomers,female,2002,18786
+Boomers,female,2003,18676
+Boomers,female,2004,18362
+Boomers,female,2005,17447
+Boomers,female,2006,17642
+Boomers,female,2007,17989
+Boomers,female,2008,18408
+Boomers,female,2009,18751
+Boomers,female,2011,14227
+Boomers,female,2012,14071
+Boomers,female,2013,13810
+Boomers,female,2014,13926
+Boomers,female,2015,12881
+Boomers,female,2016,1119
+Boomers,male,1985,15877
+Boomers,male,1986,16627
+Boomers,male,1987,17386
+Boomers,male,1988,16864
+Boomers,male,1989,24005
+Boomers,male,1990,28504
+Boomers,male,1991,82679
+Boomers,male,1992,90139
+Boomers,male,1993,96955
+Boomers,male,1994,102848
+Boomers,male,1995,72448
+Boomers,male,1996,73953
+Boomers,male,1997,70789
+Boomers,male,1998,74181
+Boomers,male,1999,78076
+Boomers,male,2000,79611
+Boomers,male,2001,79135
+Boomers,male,2002,79889
+Boomers,male,2003,80017
+Boomers,male,2004,74169
+Boomers,male,2005,71051
+Boomers,male,2006,69390
+Boomers,male,2007,67760
+Boomers,male,2008,68256
+Boomers,male,2009,71639
+Boomers,male,2011,44951
+Boomers,male,2012,44372
+Boomers,male,2013,43886
+Boomers,male,2014,43770
+Boomers,male,2015,40707
+Boomers,male,2016,3596
+G.I. Generation,female,1985,13068
+G.I. Generation,female,1986,13623
+G.I. Generation,female,1987,15215
+G.I. Generation,female,1988,14842
+G.I. Generation,female,1989,19381
+G.I. Generation,female,1990,23032
+G.I. Generation,female,1991,8012
+G.I. Generation,female,1992,7865
+G.I. Generation,female,1993,7624
+G.I. Generation,female,1994,7472
+G.I. Generation,female,1995,7761
+G.I. Generation,female,1996,7548
+G.I. Generation,female,1997,7560
+G.I. Generation,female,1998,7967
+G.I. Generation,female,1999,7941
+G.I. Generation,female,2000,7742
+G.I. Generation,male,1985,27622
+G.I. Generation,male,1986,28797
+G.I. Generation,male,1987,31302
+G.I. Generation,male,1988,29908
+G.I. Generation,male,1989,38109
+G.I. Generation,male,1990,45086
+G.I. Generation,male,1991,12854
+G.I. Generation,male,1992,12879
+G.I. Generation,male,1993,12898
+G.I. Generation,male,1994,13027
+G.I. Generation,male,1995,13140
+G.I. Generation,male,1996,13095
+G.I. Generation,male,1997,13306
+G.I. Generation,male,1998,13750
+G.I. Generation,male,1999,13692
+G.I. Generation,male,2000,13891
+Generation X,female,1985,5041
+Generation X,female,1986,5124
+Generation X,female,1987,4317
+Generation X,female,1988,3691
+Generation X,female,1989,4312
+Generation X,female,1990,5692
+Generation X,female,1991,5034
+Generation X,female,1992,5448
+Generation X,female,1993,5181
+Generation X,female,1994,5372
+Generation X,female,1995,13093
+Generation X,female,1996,13675
+Generation X,female,1997,13824
+Generation X,female,1998,14105
+Generation X,female,1999,13962
+Generation X,female,2000,13703
+Generation X,female,2001,6738
+Generation X,female,2002,7254
+Generation X,female,2003,7287
+Generation X,female,2004,6833
+Generation X,female,2005,6936
+Generation X,female,2006,6763
+Generation X,female,2007,7254
+Generation X,female,2008,7387
+Generation X,female,2009,7596
+Generation X,female,2010,25831
+Generation X,female,2011,18344
+Generation X,female,2012,17986
+Generation X,female,2013,17524
+Generation X,female,2014,17424
+Generation X,female,2015,15876
+Generation X,female,2016,1232
+Generation X,male,1985,13813
+Generation X,male,1986,13883
+Generation X,male,1987,13050
+Generation X,male,1988,12483
+Generation X,male,1989,15474
+Generation X,male,1990,19033
+Generation X,male,1991,18283
+Generation X,male,1992,19279
+Generation X,male,1993,20081
+Generation X,male,1994,21924
+Generation X,male,1995,58739
+Generation X,male,1996,59283
+Generation X,male,1997,57491
+Generation X,male,1998,58418
+Generation X,male,1999,59588
+Generation X,male,2000,59644
+Generation X,male,2001,33541
+Generation X,male,2002,34282
+Generation X,male,2003,33766
+Generation X,male,2004,31388
+Generation X,male,2005,30506
+Generation X,male,2006,30458
+Generation X,male,2007,30682
+Generation X,male,2008,30369
+Generation X,male,2009,31793
+Generation X,male,2010,99850
+Generation X,male,2011,67001
+Generation X,male,2012,64496
+Generation X,male,2013,62703
+Generation X,male,2014,61708
+Generation X,male,2015,55422
+Generation X,male,2016,4534
+Generation Z,female,2007,585
+Generation Z,female,2008,628
+Generation Z,female,2009,724
+Generation Z,female,2010,675
+Generation Z,female,2011,748
+Generation Z,female,2012,608
+Generation Z,female,2013,719
+Generation Z,female,2014,761
+Generation Z,female,2015,693
+Generation Z,male,2007,1086
+Generation Z,male,2008,1012
+Generation Z,male,2009,1111
+Generation Z,male,2010,1085
+Generation Z,male,2011,1131
+Generation Z,male,2012,1144
+Generation Z,male,2013,1087
+Generation Z,male,2014,1121
+Generation Z,male,2015,988
+Millenials,female,1991,379
+Millenials,female,1992,455
+Millenials,female,1993,479
+Millenials,female,1994,475
+Millenials,female,1995,538
+Millenials,female,1996,538
+Millenials,female,1997,578
+Millenials,female,1998,662
+Millenials,female,1999,596
+Millenials,female,2000,580
+Millenials,female,2001,6749
+Millenials,female,2002,6904
+Millenials,female,2003,7131
+Millenials,female,2004,6460
+Millenials,female,2005,6435
+Millenials,female,2006,6549
+Millenials,female,2007,5876
+Millenials,female,2008,6163
+Millenials,female,2009,6371
+Millenials,female,2010,6164
+Millenials,female,2011,13905
+Millenials,female,2012,13020
+Millenials,female,2013,12385
+Millenials,female,2014,12323
+Millenials,female,2015,11294
+Millenials,female,2016,611
+Millenials,male,1991,1154
+Millenials,male,1992,1232
+Millenials,male,1993,1310
+Millenials,male,1994,1285
+Millenials,male,1995,1383
+Millenials,male,1996,1327
+Millenials,male,1997,1302
+Millenials,male,1998,1420
+Millenials,male,1999,1453
+Millenials,male,2000,1485
+Millenials,male,2001,26152
+Millenials,male,2002,26247
+Millenials,male,2003,25300
+Millenials,male,2004,24081
+Millenials,male,2005,22963
+Millenials,male,2006,23143
+Millenials,male,2007,21794
+Millenials,male,2008,21982
+Millenials,male,2009,22116
+Millenials,male,2010,21520
+Millenials,male,2011,51968
+Millenials,male,2012,49885
+Millenials,male,2013,46932
+Millenials,male,2014,47086
+Millenials,male,2015,42665
+Millenials,male,2016,2654
+Silent,female,1985,9476
+Silent,female,1986,10047
+Silent,female,1987,10551
+Silent,female,1988,10014
+Silent,female,1989,12246
+Silent,female,1990,14622
+Silent,female,1991,14887
+Silent,female,1992,15129
+Silent,female,1993,15288
+Silent,female,1994,15129
+Silent,female,1995,15808
+Silent,female,1996,15495
+Silent,female,1997,14941
+Silent,female,1998,15451
+Silent,female,1999,15569
+Silent,female,2000,15026
+Silent,female,2001,21649
+Silent,female,2002,22605
+Silent,female,2003,22533
+Silent,female,2004,21577
+Silent,female,2005,21217
+Silent,female,2006,21085
+Silent,female,2007,21620
+Silent,female,2008,21387
+Silent,female,2009,21478
+Silent,female,2010,21552
+Silent,female,2011,7392
+Silent,female,2012,7326
+Silent,female,2013,7021
+Silent,female,2014,7122
+Silent,female,2015,6504
+Silent,female,2016,542
+Silent,male,1985,26272
+Silent,male,1986,27511
+Silent,male,1987,30098
+Silent,male,1988,28756
+Silent,male,1989,41295
+Silent,male,1990,50620
+Silent,male,1991,33428
+Silent,male,1992,36377
+Silent,male,1993,38990
+Silent,male,1994,41447
+Silent,male,1995,43330
+Silent,male,1996,44484
+Silent,male,1997,43731
+Silent,male,1998,46191
+Silent,male,1999,47095
+Silent,male,2000,45947
+Silent,male,2001,58825
+Silent,male,2002,60128
+Silent,male,2003,61369
+Silent,male,2004,57991
+Silent,male,2005,57820
+Silent,male,2006,58331
+Silent,male,2007,58762
+Silent,male,2008,59855
+Silent,male,2009,61908
+Silent,male,2010,62025
+Silent,male,2011,16817
+Silent,male,2012,17252
+Silent,male,2013,17132
+Silent,male,2014,17743
+Silent,male,2015,16610
+Silent,male,2016,1315
