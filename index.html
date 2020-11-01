@@ -15,6 +15,10 @@
 <div id="MapSuicide"></div>
   
 <div id="Bar_Chart"></div>
+  
+  <div id="Radial_Male"></div>
+  
+  <div id="Radial_Female"></div>
 
 <script type="text/javascript">
   var map_suicide = "https://DarrenLum.github.io/FIT3179/MapSuicideRate.json";
@@ -24,6 +28,16 @@
   
   var bar_age = "https://DarrenLum.github.io/FIT3179/BarAgeSuicide.json";
   vegaEmbed('#Bar_Chart', bar_age).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var rad_male = "https://DarrenLum.github.io/FIT3179/RadialMaleSuicide.json";
+  vegaEmbed('#Radial_Male', rad_male).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var rad_female = "https://DarrenLum.github.io/FIT3179/RadialFemaleSuicide.json";
+  vegaEmbed('#Radial_Female', rad_female).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
