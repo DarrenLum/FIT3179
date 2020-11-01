@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "params": [
+    {
+      "name": "year_input",
+      "value": 2015,
+      "bind": {
+        "input": "select",
+        "options": [2010, 2011, 2012, 2013, 2014, 2015],
+        "name": "Year: "
+      }
+    }
+  ],
+  "hconcat": [
+    {
+      "title": {
+        "text": "Number of Suicides in Country by Year",
+        "fontSize": 40
+      },
+      "width": 800,
+      "height": 600,
+      "projection": {"type": "equalEarth"},
+      "data": {
+        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "transform": [
+        {
+          "lookup": "properties.NAME",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/DarrenLum/FIT3179/main/SuicideByCountryYear.csv"
+            },
+            "key": "country",
+            "fields": ["suicides_no", "year"]
+          }
+        },
+        {"filter": "datum.year == year_input"},
+        {"calculate": "year_input", "as": "year"},
+        {"calculate": "datum.suicides_no", "as": "Suicide Number"}
+      ],
+      "layer": [
+        {
+          "mark": {"type": "geoshape", "stroke": "black"},
+          "encoding": {
+            "color": {
+              "field": "Suicide Number",
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain": [3000, 6000, 9000],
+                "range": ["#e6f5c9", "#a1d99b", "#8ca252", "#1b9e77"]
+              }
+            },
+            "tooltip": [
+              {
+                "field": "properties.NAME",
+                "type": "nominal",
+                "title": "country"
+              },
+              {
+                "field": "suicides_no",
+                "type": "quantitative",
+                "title": "Suicide Total"
+              },
+              {"field": "year", "type": "ordinal"}
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "config": {}
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "params": [
+    {
+      "name": "year_input",
+      "value": 2010,
+      "bind": {
+        "input": "select",
+        "options": [2010, 2011, 2012, 2013, 2014, 2015],
+        "name": "Year: "
+      }
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/DarrenLum/FIT3179/main/GenerationSexSuicideRate.csv"
+  },
+  "transform": [
+    {"filter": "datum.year == year_input"},
+    {"filter": "datum.sex == 'male'"},
+    {
+      "joinaggregate": [
+        {"op": "sum", "field": "suicides_no", "as": "Total Suicide"}
+      ],
+      "groupby": ["generation"]
+    }
+  ],
+  "layer": [
+    {
+      "title": {"text": "Male", "fontSize": 40, "dy": -50},
+      "width": 800,
+      "height": 600,
+      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+    },
+    {
+      "mark": {"type": "text", "radiusOffset": 30, "fill": "black"},
+      "encoding": {"text": {"field": "Total Suicide", "type": "quantitative"}}
+    }
+  ],
+  "encoding": {
+    "theta": {"field": "Total Suicide", "type": "quantitative", "stack": true},
+    "radius": {
+      "field": "Total Suicide",
+      "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}
+    },
+    "color": {"field": "Total Suicide", "type": "nominal", "legend": null},
+    "tooltip": [
+      {
+        "field": "suicides_no",
+        "type": "quantitative",
+        "title": "Total Suicide"
+      },
+      {"field": "generation", "type": "nominal"}
+    ]
+  },
+  "view": {"stroke": null},
+  "config": {}
+}

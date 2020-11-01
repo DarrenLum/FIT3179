@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "params": [
+    {
+      "name": "year_input",
+      "value": 2010,
+      "bind": {
+        "input": "select",
+        "options": [2010, 2011, 2012, 2013, 2014, 2015],
+        "name": "Year: "
+      }
+    }
+  ],
+  "title": {"text": "Number of Suicides by Age", "fontSize": 30, "dx": 200},
+  "hconcat": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/DarrenLum/FIT3179/main/SuicideRateByCountry.csv"
+      },
+      "title": {
+        "text": [
+          " ",
+          "In young adult group range that are struggling with low income    and heavy drinking habits have",
+          "high risk of suicidal thoughts. Middle age individual have a high risk of suicidal thoughts when",
+          "they struggle with health problems and low income. Older people has less suicidal thoughts",
+          "compared to younger adults because of help seeking behaviour",
+          " "
+        ],
+        "fontSize": 15
+      },
+      "transform": [
+        {"filter": "datum.year == year_input"},
+        {
+          "groupby": ["age"],
+          "joinaggregate": [
+            {"op": "sum", "field": "suicides_no", "as": "Total of Suicide"}
+          ]
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Total of Suicide",
+          "type": "quantitative",
+          "axis": {"tickCount": 7},
+          "title": "Number of Suicides",
+          "scale": {"padding": 10}
+        },
+        "y": {"field": "age", "type": "ordinal"},
+        "tooltip": [{"field": "Total of Suicide", "type": "nominal"}]
+      },
+      "layer": [
+        {
+          "width": 700,
+          "height": 300,
+          "selection": {
+            "highlight": {"type": "single", "empty": "none", "on": "mouseover"},
+            "select": {"type": "multi"}
+          },
+          "mark": {"type": "bar"}
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "size": 15,
+            "baseline": "middle",
+            "dx": 3
+          },
+          "encoding": {
+            "text": {"field": "Total of Suicide", "type": "quantitative"}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {}
+}
