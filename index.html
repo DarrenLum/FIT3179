@@ -12,11 +12,18 @@
     Visualisation of Global Suicide
   </h1>
 
-<div id="vis"></div>
+<div id="MapSuicide"></div>
+  
+<div id="Bar_Chart"></div>
 
 <script type="text/javascript">
-  var spec = "https://DarrenLum.github.io/FIT3179/MapSuicideRate.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  var map_suicide = "https://DarrenLum.github.io/FIT3179/MapSuicideRate.json";
+  vegaEmbed('#MapSuicide', map_suicide).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var bar_age = "https://DarrenLum.github.io/FIT3179/BarAgeSuicide.json";
+  vegaEmbed('#Bar_Chart', bar_age).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
