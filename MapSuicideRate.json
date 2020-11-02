@@ -13,10 +13,6 @@
   ],
   "hconcat": [
     {
-      "title": {
-        "text": "Number of Suicides in Country by Year",
-        "fontSize": 40
-      },
       "width": 800,
       "height": 600,
       "projection": {"type": "equalEarth"},
