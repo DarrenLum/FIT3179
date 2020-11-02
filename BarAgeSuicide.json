@@ -11,22 +11,10 @@
       }
     }
   ],
-  "title": {"text": "Number of Suicides by Age", "fontSize": 30, "dx": 200},
   "hconcat": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/DarrenLum/FIT3179/main/SuicideRateByCountry.csv"
-      },
-      "title": {
-        "text": [
-          " ",
-          "In young adult group range that are struggling with low income    and heavy drinking habits have",
-          "high risk of suicidal thoughts. Middle age individual have a high risk of suicidal thoughts when",
-          "they struggle with health problems and low income. Older people has less suicidal thoughts",
-          "compared to younger adults because of help seeking behaviour",
-          " "
-        ],
-        "fontSize": 15
       },
       "transform": [
         {"filter": "datum.year == year_input"},
