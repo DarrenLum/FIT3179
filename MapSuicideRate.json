@@ -48,7 +48,7 @@
      "as": "year"
  },
  {
-     "calculate": "datum.suicides_by_hundredk_pop * 100",
+     "calculate": "datum.suicides_by_hundredk_pop",
      "as": "Suicide Number"
  },
  {
@@ -64,7 +64,7 @@
  "type": "quantitative",
  "scale": {
  "type": "threshold",
- "domain": [20, 60, 100],
+ "domain": [0.2, 0.6, 1],
  "range": ["#e6f5c9", "#a1d99b", "#8ca252", "#1b9e77"]
  }
  },
